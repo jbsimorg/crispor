@@ -1,6 +1,9 @@
 <?php
     $title = "CRISPOR - TEFOR&#39;s CRISPR ONLINE TOOL";
-    $metadescription = "CRISPOR - Free guide-RNAs designer tool - Design your Cas9 guide-RNAs and control the off-targets in a growing list of genomes";
+    $metadescription = "Design your Cas9 RNA guide and control the off-targets. http://tefor.net/crispor
+        CRISPOR - CRISPr selectOR - is a program that helps design and evaluate target sites for use with the CRISPR/Cas9 system.
+        It uses the BWA algorithm to identify guide RNA sequences for CRISPR mediated genome editing. It searches for off-target sites (with and without mismatches), shows them in a table and annotates them with flanking genes.
+        CRISPOR currently includes more than 70 genomes ! To add your genome of interest, contact the CRISPOR web site manager: penigault@tefor.net.";        
         
     echo "<title>$title</title>";
     echo "<meta name='description' content='$metadescription'/>";

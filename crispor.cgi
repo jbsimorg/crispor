@@ -759,8 +759,10 @@ def printForm(defaultorg,defaultseq,defaultpam):
 <form id="main-form" method="post" action="%s">
 
 <div class="introtext">
-    <div onclick="$('#about-us').toggle('fast');" class="title" style="cursor:pointer;display:inline;font-size:large;font-style: normal;">
-        About CRISPOR
+    Find out more about 
+    <div onclick="$('#about-us').toggle('fast');" class="title" style="cursor:pointer;display:inline;font-size:large;font-style:normal">
+        CRISPOR
+        <img src="http://tefor.net/crispor/image/info.png" class="infopoint" style="vertical-align:text-top;">
     </div>
     <div id="about-us"> CRISPOR - CRISPr selectOR - is a program that helps design and evaluate target sites for use with the CRISPR/Cas9 system.<br>
     It uses the BWA algorithm to identify guide RNA sequences for CRISPR mediated genome editing.<br>
